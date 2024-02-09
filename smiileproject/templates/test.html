@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="stylesheet" type="text/javascript" src="{% static '/js/test.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href= "{% static '/css/test.css' %}">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+    <input type='text' id='idea' />
+    <input type='button' value='add to list' id='add' />
+    <ul  id='list'><li>yeas</li> /ul>
+        Username:<input id="username" type="text"><br>
+        Password:&nbsp;<input id="pw" type="password"><br>
+        <button id="myButton" onclick="buttonCode()">Submit</button>
+        <input type='button' id='btnSubmit' Value =' Submit'/>
+        
+        First Name : <input type='text' id='txtFirstName' /> <br/><br/>
+        Last Name : <input type='text' id='txtLastName' /><br/><br/>
+        Age : <input type='text' id='txtAge' /><br/><br/>
+        tgltg <input type="text" name="name" id="uniqueID" value="value" />
+
+        
+        <script>
+          var nameValue = document.getElementById("uniqueID").value;
+       
+        </script>
+        <h1>Form</h1>
+
+<h2>Enter: </h2>
+
+<form enctype="multipart/form-data" method="post">
+  <label> Gender: </label>
+  <select name='Gender'>
+    <option value='Female' selected>Female</option>
+    <option value='Male'>Male</option>
+  </select><br />
+  <label>Status: </label>
+  <select name='Status'>
+    <option value='Single' selected>Single</option>
+    <option value='Married'>Married</option>
+  </select><br />
+  <input type='button' id="Submit" onclick="myFunction()" value='Submit'>
+</form>
+        
+        
+        
+</body>
+</html>

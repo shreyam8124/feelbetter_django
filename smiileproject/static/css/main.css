@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+    font-family: Scada ;
+    background: #FCB9B2 url('/static/pics/Frame 2 (1).png' );
+    background-repeat:no-repeat;
+    background-position: -124,-101;
+    height:auto;
+
+}
+.img{
+    position: absolute;
+    width: 73px;
+    height: auto;
+    left: 51px;
+    top: 700px;
+}
+.ig{   
+    position: absolute;
+    width: 373px;
+    height: auto;
+    left: 75px;
+    top: 715px;
+    font-family: Scada;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFEFE;
+}
+.llmaimg{
+    position: absolute;
+    width: 281.77px;
+    height:auto;
+    left: 1140px;
+    top: 360px;  
+}
+li a{  
+    text-decoration: none;
+    font-family: Scada;
+    font-weight: bold;
+    font-size: 48px;
+    text-decoration: none;
+    color: #1B0303;
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    text-align: center;
+}
+li{
+    display: inline-flex;
+    position: static;
+    list-style: none;
+    margin: 203px;
+    
+    
+}
+.txtbg{
+    background: url('/static/pics/Rectangle\ 6.svg');
+    width:711px;
+	height:160px;
+	border-top-left-radius:121px;
+	border-top-right-radius:121px;
+	border-bottom-left-radius:121px;
+	border-bottom-right-radius:121px;
+    left: 349px;
+    top: 40px;
+    background-repeat:no-repeat;
+    position: absolute;
+}
+.main-txt{
+    color:rgba(255, 255, 255, 1);
+	width:595px;
+	height:60px;
+	position:absolute;
+	left:407px;
+	top:85px;
+	font-family:Scada;
+	text-align:center;
+	font-size:48px;
+	letter-spacing:0;
+    z-index: 1;
+}
+.txtbg1{
+    
+    width:319.7867431640625px;
+    height:176.8660125732422px;
+    position: absolute;
+    left: 144.71px;
+    top: 294px;
+    transform: rotate(0.88deg);
+    margin-left: -10px;
+    
+}
+.txtbg1:hover{
+    animation:normal 0.3s
+}
+.txtbg2{
+    
+    position: absolute;
+    width:319.7867431640625px;
+    height:176.8660125732422px;
+    left: 524.71px;
+    top: 297px;
+    transform: rotate(0.88deg);
+}
+.txtbg3{
+   
+    position: absolute;
+    width:319.7867431640625px;
+    height:176.8660125732422px;
+    left: 904.59px;
+    top: 299px;
+    transform: rotate(0.88deg);
+    margin-left: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.smileimg{
+    position: fixed;
+    margin-left: 1330px;
+}
+.wrapper-grid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(10rem, 40rem));
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body {
+    background: #FCB9B2;
+    background-repeat:no-repeat;
+    height:auto;
+}
+.llama {
+    width: 281.77px;
+	height:auto;
+	position:absolute;
+	left: 1080px;
+    top: 180px;  
+}
+.vec {
+    width:104px;
+	height:54px;
+	position:absolute;
+	left:1135px;
+	top:0px;
+}
+.title {
+    width:853px;
+	height:144px;
+	position:absolute;
+	left:19px;
+	top:0px;
+}
+.rec {
+    width:890px;
+	height:105px;
+	position:absolute;
+	left:20px;
+	top:180px;
+	z-index: -1;
+}
+.style{
+	position: absolute;
+	top: 230px;
+	left: 45px;
+	right: 670px;
+	font-family: kulim park ;
+	font-size: 33px;
+	z-index: 1;
+}

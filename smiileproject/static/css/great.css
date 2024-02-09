@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+html {
+    overflow-y: hidden;
+    overflow-x:hidden ;
+}
+body{
+    font-family: Scada,kulim+park;
+    background: #FCB9B2;
+    background-repeat:no-repeat;
+    height:auto;
+}
+.vector{
+    position: absolute;
+    left: 1176px;
+    top: 0px;
+}
+.gtxtbg{
+    width:695px;
+	height:714px;
+    position:absolute;
+	left:28px;
+	top:30px;
+}
+.todo{
+    width:304px;
+	height:564px;
+	position:absolute;
+    left: 793px;
+    top: 66px;
+}
+
+.list{
+    z-index: 1;
+    position: absolute;
+    top: 182px;
+    left: 827px;
+}
+.list1 {
+    z-index: 1;
+    position: absolute;
+    top: 225px;
+    left: 827px;
+}
+.list2 {
+    z-index: 1;
+    position: absolute;
+    top: 269px;
+    left: 827px;
+}
+.list3 {
+    z-index: 1;
+    position: absolute;
+    top: 313px;
+    left: 827px;
+}
+.list4 {
+    z-index: 1;
+    position: absolute;
+    top: 356px;
+    left: 827px;
+}
+.list5 {
+    z-index: 1;
+    position: absolute;
+    top: 400px;
+    left: 827px;
+}
+.list6 {
+    z-index: 1;
+    position: absolute;
+    top: 443px;
+    left: 827px;
+}
+.list7{
+    z-index: 1;
+    position: absolute;
+    top: 487px;
+    left: 827px;
+
+}
+.list8{
+    z-index: 1;
+    position: absolute;
+    top: 530px;
+    left: 827px;
+
+}
+.list9{
+    z-index: 1;
+    position: absolute;
+    top: 574px;
+    left: 820px;
+
+}
+label:before {
+    content: "\a";
+    white-space: pre;
+}
+#quotedisplay{
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    font-family: kulim park ;
+    left: 35px;
+    font-size: 70px;
+    right: 710px;
+    text-align: center;
+
+}
+#new{
+   position: absolute;
+   top: 660px;
+   left: 286px;
+   padding: 14px 25px;
+   font-size: 24px;
+   cursor: pointer;
+   text-align: center;
+   color: #FFFFFF;
+   background-color: #790C40;
+   border: none;
+   border-radius: 25px;
+}
+
+#new:hover{
+    background-color: #971F58
+}
+input[type=submit]
+{
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #790C40;
+    border: none;
+    border-radius: 25px;
+    padding: 14px 25px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 864px;
+	top:660px;
+    width:154.54811096191406px;
+	height:54px;
+    text-align: center;
+   
+}
+#sub:hover{
+    background-color: #971f58
+}

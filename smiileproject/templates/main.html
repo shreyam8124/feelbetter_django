@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <link rel="stylesheet" type="text/css" href= "{% static '/css/main.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Scada&display=swap" rel="stylesheet">
+
+
+</head>
+<body style="width: 100%">
+<div class="wrapper-grid">
+
+            <div class="main-txt">
+                <p>
+                    How do you feel right now?
+                </p>
+            </div>
+
+    <div class="smileimg">
+        <img src= "{% static 'pics/output-onlinepngtools (2) 1.png' %}" />
+    </div>
+    <div class="list-container">
+        <div class="wrapper">
+            <nav>
+                <ul class="list">
+                    <li>
+                        <a href="{% url 'great' %}">😄</a>
+                        <div class="txtbg1"><img src="{% static 'pics/Ellipse 10.svg' %}"></div>
+                    </li>
+                    <li>
+                        <a href="{% url 'bleh' %}">😐</a>
+                        <div class="txtbg2"><img src="{% static 'pics/Ellipse 10.svg' %}"></div>
+                    </li>
+                    <li>
+                        <a href="{% url 'meh' %}">😒</a>
+                        <div class="txtbg3"><img src="{% static 'pics/Ellipse 10.svg' %}"></div>
+                    </li>
+
+                </ul>
+
+            </nav>
+        </div> 
+    </div>
+    <div class="llmaimg">
+        <img src="{% static 'pics/llama 1.png' %}">
+    </div>
+    <div class="img"> <a href="https://www.instagram.com/smiileproject/">
+        <img src= "{% static 'pics/icon-1562139_1920 1.png' %}" align="right"/> </a>
+    </div>
+    <div class="ig">
+        <p><a href="https://www.instagram.com/smiileproject/" style="color: #FFFEFE">
+            @smiileproject
+        </p></a>
+    </div>
+    <div class="txtbg"><img src="{% static 'pics/Rectangle 6.svg' %}"></div>
+</div>
+</body>
+</html>
